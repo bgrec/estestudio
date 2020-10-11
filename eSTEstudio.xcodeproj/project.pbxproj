@@ -1,0 +1,1282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A793A66C25335F8E006883C4 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A66B25335F8E006883C4 /* Tests_iOS.swift */; };
+		A793A67725335F8E006883C4 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A67625335F8E006883C4 /* Tests_macOS.swift */; };
+		A793A67B25335F8E006883C4 /* eSTEstudioApp_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A64F25335F8D006883C4 /* eSTEstudioApp_.swift */; };
+		A793A67C25335F8E006883C4 /* eSTEstudioApp_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A64F25335F8D006883C4 /* eSTEstudioApp_.swift */; };
+		A793A67D25335F8E006883C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A65025335F8D006883C4 /* ContentView.swift */; };
+		A793A67E25335F8E006883C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A65025335F8D006883C4 /* ContentView.swift */; };
+		A793A67F25335F8E006883C4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A65125335F8D006883C4 /* Persistence.swift */; };
+		A793A68025335F8E006883C4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A65125335F8D006883C4 /* Persistence.swift */; };
+		A793A68125335F8E006883C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A793A65225335F8D006883C4 /* Assets.xcassets */; };
+		A793A68225335F8E006883C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A793A65225335F8D006883C4 /* Assets.xcassets */; };
+		A793A69E253361A0006883C4 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = A793A69D253361A0006883C4 /* .swiftlint.yml */; };
+		A793A69F253361A0006883C4 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = A793A69D253361A0006883C4 /* .swiftlint.yml */; };
+		A793A6A5253361AA006883C4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A793A6A4253361AA006883C4 /* README.md */; };
+		A793A6A6253361AA006883C4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A793A6A4253361AA006883C4 /* README.md */; };
+		A793A6B9253361D3006883C4 /* appointments.json in Resources */ = {isa = PBXBuildFile; fileRef = A793A6B7253361D3006883C4 /* appointments.json */; };
+		A793A6BA253361D3006883C4 /* appointments.json in Resources */ = {isa = PBXBuildFile; fileRef = A793A6B7253361D3006883C4 /* appointments.json */; };
+		A793A6BB253361D3006883C4 /* appointmentTypes.json in Resources */ = {isa = PBXBuildFile; fileRef = A793A6B8253361D3006883C4 /* appointmentTypes.json */; };
+		A793A6BC253361D3006883C4 /* appointmentTypes.json in Resources */ = {isa = PBXBuildFile; fileRef = A793A6B8253361D3006883C4 /* appointmentTypes.json */; };
+		A793A6DF253361E6006883C4 /* AddonIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A6D9253361E6006883C4 /* AddonIDs.swift */; };
+		A793A6E0253361E6006883C4 /* AddonIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A6D9253361E6006883C4 /* AddonIDs.swift */; };
+		A793A6E1253361E6006883C4 /* NotificationsTimeIntervals+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A6DA253361E6006883C4 /* NotificationsTimeIntervals+CoreDataProperties.swift */; };
+		A793A6E2253361E6006883C4 /* NotificationsTimeIntervals+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A6DA253361E6006883C4 /* NotificationsTimeIntervals+CoreDataProperties.swift */; };
+		A793A6E3253361E6006883C4 /* Forms.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A6DB253361E6006883C4 /* Forms.swift */; };
+		A793A6E4253361E6006883C4 /* Forms.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A6DB253361E6006883C4 /* Forms.swift */; };
+		A793A6E5253361E6006883C4 /* AppointmentCoreData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A6DC253361E6006883C4 /* AppointmentCoreData+CoreDataProperties.swift */; };
+		A793A6E6253361E6006883C4 /* AppointmentCoreData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A6DC253361E6006883C4 /* AppointmentCoreData+CoreDataProperties.swift */; };
+		A793A6E7253361E6006883C4 /* AppointmentCoreData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A6DD253361E6006883C4 /* AppointmentCoreData+CoreDataClass.swift */; };
+		A793A6E8253361E6006883C4 /* AppointmentCoreData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A6DD253361E6006883C4 /* AppointmentCoreData+CoreDataClass.swift */; };
+		A793A6E9253361E6006883C4 /* NotificationsTimeIntervals+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A6DE253361E6006883C4 /* NotificationsTimeIntervals+CoreDataClass.swift */; };
+		A793A6EA253361E6006883C4 /* NotificationsTimeIntervals+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A6DE253361E6006883C4 /* NotificationsTimeIntervals+CoreDataClass.swift */; };
+		A793A6F425336201006883C4 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A6F025336201006883C4 /* Date.swift */; };
+		A793A6F525336201006883C4 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A6F025336201006883C4 /* Date.swift */; };
+		A793A6F625336201006883C4 /* CodingUserInfoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A6F125336201006883C4 /* CodingUserInfoKey.swift */; };
+		A793A6F725336201006883C4 /* CodingUserInfoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A6F125336201006883C4 /* CodingUserInfoKey.swift */; };
+		A793A6F825336201006883C4 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A6F225336201006883C4 /* String.swift */; };
+		A793A6F925336201006883C4 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A6F225336201006883C4 /* String.swift */; };
+		A793A6FA25336201006883C4 /* NSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A6F325336201006883C4 /* NSError.swift */; };
+		A793A6FB25336201006883C4 /* NSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A6F325336201006883C4 /* NSError.swift */; };
+		A793A70A2533623A006883C4 /* SafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7062533623A006883C4 /* SafariViewController.swift */; };
+		A793A70B2533623A006883C4 /* SafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7062533623A006883C4 /* SafariViewController.swift */; };
+		A793A70C2533623A006883C4 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7072533623A006883C4 /* WebViewController.swift */; };
+		A793A70D2533623A006883C4 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7072533623A006883C4 /* WebViewController.swift */; };
+		A793A70E2533623A006883C4 /* MapViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7092533623A006883C4 /* MapViewCoordinator.swift */; };
+		A793A70F2533623A006883C4 /* MapViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7092533623A006883C4 /* MapViewCoordinator.swift */; };
+		A793A7192533629B006883C4 /* eSTEstudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7182533629B006883C4 /* eSTEstudioApp.swift */; };
+		A793A71A2533629B006883C4 /* eSTEstudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7182533629B006883C4 /* eSTEstudioApp.swift */; };
+		A793A73425336383006883C4 /* AppointmentsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A72B25336383006883C4 /* AppointmentsList.swift */; };
+		A793A73525336383006883C4 /* AppointmentsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A72B25336383006883C4 /* AppointmentsList.swift */; };
+		A793A73625336383006883C4 /* WhatsNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A72C25336383006883C4 /* WhatsNewView.swift */; };
+		A793A73725336383006883C4 /* WhatsNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A72C25336383006883C4 /* WhatsNewView.swift */; };
+		A793A73825336383006883C4 /* AppointmentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A72D25336383006883C4 /* AppointmentDetail.swift */; };
+		A793A73925336383006883C4 /* AppointmentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A72D25336383006883C4 /* AppointmentDetail.swift */; };
+		A793A73A25336383006883C4 /* NotificationAlertTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A72E25336383006883C4 /* NotificationAlertTime.swift */; };
+		A793A73B25336383006883C4 /* NotificationAlertTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A72E25336383006883C4 /* NotificationAlertTime.swift */; };
+		A793A73C25336383006883C4 /* AppointmentsScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A72F25336383006883C4 /* AppointmentsScrollView.swift */; };
+		A793A73D25336383006883C4 /* AppointmentsScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A72F25336383006883C4 /* AppointmentsScrollView.swift */; };
+		A793A73E25336383006883C4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A73025336383006883C4 /* Home.swift */; };
+		A793A73F25336383006883C4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A73025336383006883C4 /* Home.swift */; };
+		A793A74025336383006883C4 /* FirstLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A73125336383006883C4 /* FirstLaunchView.swift */; };
+		A793A74125336383006883C4 /* FirstLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A73125336383006883C4 /* FirstLaunchView.swift */; };
+		A793A74225336383006883C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A73225336383006883C4 /* AppDelegate.swift */; };
+		A793A74325336383006883C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A73225336383006883C4 /* AppDelegate.swift */; };
+		A793A74425336383006883C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A73325336383006883C4 /* SceneDelegate.swift */; };
+		A793A74525336383006883C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A73325336383006883C4 /* SceneDelegate.swift */; };
+		A793A7652533638D006883C4 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A74C2533638D006883C4 /* SafariView.swift */; };
+		A793A7662533638D006883C4 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A74C2533638D006883C4 /* SafariView.swift */; };
+		A793A7672533638D006883C4 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A74D2533638D006883C4 /* WebView.swift */; };
+		A793A7682533638D006883C4 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A74D2533638D006883C4 /* WebView.swift */; };
+		A793A7692533638D006883C4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A74F2533638D006883C4 /* MapView.swift */; };
+		A793A76A2533638D006883C4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A74F2533638D006883C4 /* MapView.swift */; };
+		A793A76B2533638D006883C4 /* MapViewAdvanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7502533638D006883C4 /* MapViewAdvanced.swift */; };
+		A793A76C2533638D006883C4 /* MapViewAdvanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7502533638D006883C4 /* MapViewAdvanced.swift */; };
+		A793A76D2533638D006883C4 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7522533638D006883C4 /* ProfileSummary.swift */; };
+		A793A76E2533638D006883C4 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7522533638D006883C4 /* ProfileSummary.swift */; };
+		A793A76F2533638D006883C4 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7532533638D006883C4 /* ProfileEditor.swift */; };
+		A793A7702533638D006883C4 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7532533638D006883C4 /* ProfileEditor.swift */; };
+		A793A7712533638D006883C4 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7542533638D006883C4 /* ProfileHost.swift */; };
+		A793A7722533638D006883C4 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7542533638D006883C4 /* ProfileHost.swift */; };
+		A793A7732533638D006883C4 /* SheetPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7562533638D006883C4 /* SheetPresenter.swift */; };
+		A793A7742533638D006883C4 /* SheetPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7562533638D006883C4 /* SheetPresenter.swift */; };
+		A793A7752533638D006883C4 /* TypesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7582533638D006883C4 /* TypesRow.swift */; };
+		A793A7762533638D006883C4 /* TypesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7582533638D006883C4 /* TypesRow.swift */; };
+		A793A7772533638D006883C4 /* TypesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7592533638D006883C4 /* TypesList.swift */; };
+		A793A7782533638D006883C4 /* TypesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7592533638D006883C4 /* TypesList.swift */; };
+		A793A7792533638D006883C4 /* EsteStudioWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A75A2533638D006883C4 /* EsteStudioWebView.swift */; };
+		A793A77A2533638D006883C4 /* EsteStudioWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A75A2533638D006883C4 /* EsteStudioWebView.swift */; };
+		A793A77B2533638D006883C4 /* AppointmentsFilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A75C2533638D006883C4 /* AppointmentsFilteredList.swift */; };
+		A793A77C2533638D006883C4 /* AppointmentsFilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A75C2533638D006883C4 /* AppointmentsFilteredList.swift */; };
+		A793A77D2533638D006883C4 /* AppointmentListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A75D2533638D006883C4 /* AppointmentListRow.swift */; };
+		A793A77E2533638D006883C4 /* AppointmentListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A75D2533638D006883C4 /* AppointmentListRow.swift */; };
+		A793A77F2533638D006883C4 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A75E2533638D006883C4 /* ActivityIndicator.swift */; };
+		A793A7802533638D006883C4 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A75E2533638D006883C4 /* ActivityIndicator.swift */; };
+		A793A7812533638D006883C4 /* AppointmentDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7602533638D006883C4 /* AppointmentDetailRow.swift */; };
+		A793A7822533638D006883C4 /* AppointmentDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7602533638D006883C4 /* AppointmentDetailRow.swift */; };
+		A793A7832533638D006883C4 /* AppointmentDetailContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7612533638D006883C4 /* AppointmentDetailContextMenu.swift */; };
+		A793A7842533638D006883C4 /* AppointmentDetailContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7612533638D006883C4 /* AppointmentDetailContextMenu.swift */; };
+		A793A7852533638D006883C4 /* AppointmentDetailNotificationsEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7622533638D006883C4 /* AppointmentDetailNotificationsEditor.swift */; };
+		A793A7862533638D006883C4 /* AppointmentDetailNotificationsEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7622533638D006883C4 /* AppointmentDetailNotificationsEditor.swift */; };
+		A793A7872533638D006883C4 /* AppointmentDetailEditActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7632533638D006883C4 /* AppointmentDetailEditActionSheet.swift */; };
+		A793A7882533638D006883C4 /* AppointmentDetailEditActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7632533638D006883C4 /* AppointmentDetailEditActionSheet.swift */; };
+		A793A7892533638D006883C4 /* AppointmentCalendarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7642533638D006883C4 /* AppointmentCalendarImageView.swift */; };
+		A793A78A2533638D006883C4 /* AppointmentCalendarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7642533638D006883C4 /* AppointmentCalendarImageView.swift */; };
+		A793A7A6253363A2006883C4 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A794253363A2006883C4 /* AppState.swift */; };
+		A793A7A7253363A2006883C4 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A794253363A2006883C4 /* AppState.swift */; };
+		A793A7A8253363A2006883C4 /* NetStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A795253363A2006883C4 /* NetStatus.swift */; };
+		A793A7A9253363A2006883C4 /* NetStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A795253363A2006883C4 /* NetStatus.swift */; };
+		A793A7AA253363A2006883C4 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A796253363A2006883C4 /* Data.swift */; };
+		A793A7AB253363A2006883C4 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A796253363A2006883C4 /* Data.swift */; };
+		A793A7AC253363A2006883C4 /* NotificationsAppointmentsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A797253363A2006883C4 /* NotificationsAppointmentsManager.swift */; };
+		A793A7AD253363A2006883C4 /* NotificationsAppointmentsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A797253363A2006883C4 /* NotificationsAppointmentsManager.swift */; };
+		A793A7AE253363A2006883C4 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A798253363A2006883C4 /* LocalNotificationManager.swift */; };
+		A793A7AF253363A2006883C4 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A798253363A2006883C4 /* LocalNotificationManager.swift */; };
+		A793A7B0253363A2006883C4 /* AppStoreReviewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A799253363A2006883C4 /* AppStoreReviewManager.swift */; };
+		A793A7B1253363A2006883C4 /* AppStoreReviewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A799253363A2006883C4 /* AppStoreReviewManager.swift */; };
+		A793A7B2253363A2006883C4 /* AppointmentCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A79A253363A2006883C4 /* AppointmentCoreDataManager.swift */; };
+		A793A7B3253363A2006883C4 /* AppointmentCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A79A253363A2006883C4 /* AppointmentCoreDataManager.swift */; };
+		A793A7B4253363A2006883C4 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A79B253363A2006883C4 /* Appointment.swift */; };
+		A793A7B5253363A2006883C4 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A79B253363A2006883C4 /* Appointment.swift */; };
+		A793A7B6253363A2006883C4 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A79C253363A2006883C4 /* Profile.swift */; };
+		A793A7B7253363A2006883C4 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A79C253363A2006883C4 /* Profile.swift */; };
+		A793A7B8253363A2006883C4 /* QueryParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A79D253363A2006883C4 /* QueryParams.swift */; };
+		A793A7B9253363A2006883C4 /* QueryParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A79D253363A2006883C4 /* QueryParams.swift */; };
+		A793A7BA253363A2006883C4 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A79E253363A2006883C4 /* UserData.swift */; };
+		A793A7BB253363A2006883C4 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A79E253363A2006883C4 /* UserData.swift */; };
+		A793A7BC253363A2006883C4 /* codeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A79F253363A2006883C4 /* codeExample.swift */; };
+		A793A7BD253363A2006883C4 /* codeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A79F253363A2006883C4 /* codeExample.swift */; };
+		A793A7BE253363A2006883C4 /* AppointmentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7A0253363A2006883C4 /* AppointmentsViewModel.swift */; };
+		A793A7BF253363A2006883C4 /* AppointmentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7A0253363A2006883C4 /* AppointmentsViewModel.swift */; };
+		A793A7C0253363A2006883C4 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7A1253363A2006883C4 /* Notifications.swift */; };
+		A793A7C1253363A2006883C4 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7A1253363A2006883C4 /* Notifications.swift */; };
+		A793A7C2253363A2006883C4 /* DeleteAppointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7A2253363A2006883C4 /* DeleteAppointment.swift */; };
+		A793A7C3253363A2006883C4 /* DeleteAppointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7A2253363A2006883C4 /* DeleteAppointment.swift */; };
+		A793A7C4253363A2006883C4 /* LocalEventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7A3253363A2006883C4 /* LocalEventManager.swift */; };
+		A793A7C5253363A2006883C4 /* LocalEventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7A3253363A2006883C4 /* LocalEventManager.swift */; };
+		A793A7C6253363A2006883C4 /* TimeIntervalsCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7A4253363A2006883C4 /* TimeIntervalsCoreData.swift */; };
+		A793A7C7253363A2006883C4 /* TimeIntervalsCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7A4253363A2006883C4 /* TimeIntervalsCoreData.swift */; };
+		A793A7C8253363A2006883C4 /* TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7A5253363A2006883C4 /* TimeInterval.swift */; };
+		A793A7C9253363A2006883C4 /* TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7A5253363A2006883C4 /* TimeInterval.swift */; };
+		A793A7D2253363D4006883C4 /* estestudio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A793A7D0253363D4006883C4 /* estestudio.xcdatamodeld */; };
+		A793A7D3253363D4006883C4 /* estestudio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A793A7D0253363D4006883C4 /* estestudio.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A793A66825335F8E006883C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A793A64825335F8D006883C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A793A65625335F8D006883C4;
+			remoteInfo = "eSTEstudio (iOS)";
+		};
+		A793A67325335F8E006883C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A793A64825335F8D006883C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A793A65E25335F8D006883C4;
+			remoteInfo = "eSTEstudio (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A793A64F25335F8D006883C4 /* eSTEstudioApp_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eSTEstudioApp_.swift; sourceTree = "<group>"; };
+		A793A65025335F8D006883C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A793A65125335F8D006883C4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A793A65225335F8D006883C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A793A65725335F8D006883C4 /* eSTEstudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eSTEstudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A793A65A25335F8D006883C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A793A65F25335F8D006883C4 /* eSTEstudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eSTEstudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A793A66125335F8D006883C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A793A66225335F8D006883C4 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		A793A66725335F8E006883C4 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A793A66B25335F8E006883C4 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		A793A66D25335F8E006883C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A793A67225335F8E006883C4 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A793A67625335F8E006883C4 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		A793A67825335F8E006883C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A793A69D253361A0006883C4 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		A793A6A4253361AA006883C4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A793A6B7253361D3006883C4 /* appointments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = appointments.json; sourceTree = "<group>"; };
+		A793A6B8253361D3006883C4 /* appointmentTypes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = appointmentTypes.json; sourceTree = "<group>"; };
+		A793A6D9253361E6006883C4 /* AddonIDs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddonIDs.swift; sourceTree = "<group>"; };
+		A793A6DA253361E6006883C4 /* NotificationsTimeIntervals+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NotificationsTimeIntervals+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A793A6DB253361E6006883C4 /* Forms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forms.swift; sourceTree = "<group>"; };
+		A793A6DC253361E6006883C4 /* AppointmentCoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppointmentCoreData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A793A6DD253361E6006883C4 /* AppointmentCoreData+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppointmentCoreData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A793A6DE253361E6006883C4 /* NotificationsTimeIntervals+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NotificationsTimeIntervals+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A793A6F025336201006883C4 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		A793A6F125336201006883C4 /* CodingUserInfoKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodingUserInfoKey.swift; sourceTree = "<group>"; };
+		A793A6F225336201006883C4 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		A793A6F325336201006883C4 /* NSError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSError.swift; sourceTree = "<group>"; };
+		A793A7062533623A006883C4 /* SafariViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafariViewController.swift; sourceTree = "<group>"; };
+		A793A7072533623A006883C4 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		A793A7092533623A006883C4 /* MapViewCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewCoordinator.swift; sourceTree = "<group>"; };
+		A793A7182533629B006883C4 /* eSTEstudioApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eSTEstudioApp.swift; sourceTree = "<group>"; };
+		A793A72B25336383006883C4 /* AppointmentsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentsList.swift; sourceTree = "<group>"; };
+		A793A72C25336383006883C4 /* WhatsNewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewView.swift; sourceTree = "<group>"; };
+		A793A72D25336383006883C4 /* AppointmentDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentDetail.swift; sourceTree = "<group>"; };
+		A793A72E25336383006883C4 /* NotificationAlertTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationAlertTime.swift; sourceTree = "<group>"; };
+		A793A72F25336383006883C4 /* AppointmentsScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentsScrollView.swift; sourceTree = "<group>"; };
+		A793A73025336383006883C4 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A793A73125336383006883C4 /* FirstLaunchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstLaunchView.swift; sourceTree = "<group>"; };
+		A793A73225336383006883C4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A793A73325336383006883C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A793A74C2533638D006883C4 /* SafariView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		A793A74D2533638D006883C4 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		A793A74F2533638D006883C4 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A793A7502533638D006883C4 /* MapViewAdvanced.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewAdvanced.swift; sourceTree = "<group>"; };
+		A793A7522533638D006883C4 /* ProfileSummary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		A793A7532533638D006883C4 /* ProfileEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		A793A7542533638D006883C4 /* ProfileHost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		A793A7562533638D006883C4 /* SheetPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetPresenter.swift; sourceTree = "<group>"; };
+		A793A7582533638D006883C4 /* TypesRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypesRow.swift; sourceTree = "<group>"; };
+		A793A7592533638D006883C4 /* TypesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypesList.swift; sourceTree = "<group>"; };
+		A793A75A2533638D006883C4 /* EsteStudioWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EsteStudioWebView.swift; sourceTree = "<group>"; };
+		A793A75C2533638D006883C4 /* AppointmentsFilteredList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentsFilteredList.swift; sourceTree = "<group>"; };
+		A793A75D2533638D006883C4 /* AppointmentListRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentListRow.swift; sourceTree = "<group>"; };
+		A793A75E2533638D006883C4 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		A793A7602533638D006883C4 /* AppointmentDetailRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentDetailRow.swift; sourceTree = "<group>"; };
+		A793A7612533638D006883C4 /* AppointmentDetailContextMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentDetailContextMenu.swift; sourceTree = "<group>"; };
+		A793A7622533638D006883C4 /* AppointmentDetailNotificationsEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentDetailNotificationsEditor.swift; sourceTree = "<group>"; };
+		A793A7632533638D006883C4 /* AppointmentDetailEditActionSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentDetailEditActionSheet.swift; sourceTree = "<group>"; };
+		A793A7642533638D006883C4 /* AppointmentCalendarImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentCalendarImageView.swift; sourceTree = "<group>"; };
+		A793A794253363A2006883C4 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		A793A795253363A2006883C4 /* NetStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetStatus.swift; sourceTree = "<group>"; };
+		A793A796253363A2006883C4 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		A793A797253363A2006883C4 /* NotificationsAppointmentsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsAppointmentsManager.swift; sourceTree = "<group>"; };
+		A793A798253363A2006883C4 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
+		A793A799253363A2006883C4 /* AppStoreReviewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoreReviewManager.swift; sourceTree = "<group>"; };
+		A793A79A253363A2006883C4 /* AppointmentCoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentCoreDataManager.swift; sourceTree = "<group>"; };
+		A793A79B253363A2006883C4 /* Appointment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		A793A79C253363A2006883C4 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		A793A79D253363A2006883C4 /* QueryParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryParams.swift; sourceTree = "<group>"; };
+		A793A79E253363A2006883C4 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		A793A79F253363A2006883C4 /* codeExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = codeExample.swift; sourceTree = "<group>"; };
+		A793A7A0253363A2006883C4 /* AppointmentsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentsViewModel.swift; sourceTree = "<group>"; };
+		A793A7A1253363A2006883C4 /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		A793A7A2253363A2006883C4 /* DeleteAppointment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteAppointment.swift; sourceTree = "<group>"; };
+		A793A7A3253363A2006883C4 /* LocalEventManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalEventManager.swift; sourceTree = "<group>"; };
+		A793A7A4253363A2006883C4 /* TimeIntervalsCoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeIntervalsCoreData.swift; sourceTree = "<group>"; };
+		A793A7A5253363A2006883C4 /* TimeInterval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeInterval.swift; sourceTree = "<group>"; };
+		A793A7D1253363D4006883C4 /* estestudio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = estestudio.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A793A65425335F8D006883C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A793A65C25335F8D006883C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A793A66425335F8E006883C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A793A66F25335F8E006883C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A793A64725335F8D006883C4 = {
+			isa = PBXGroup;
+			children = (
+				A793A69D253361A0006883C4 /* .swiftlint.yml */,
+				A793A6A4253361AA006883C4 /* README.md */,
+				A793A64C25335F8D006883C4 /* Shared */,
+				A793A65925335F8D006883C4 /* iOS */,
+				A793A7F925336D9A006883C4 /* iOS Clip */,
+				A793A7FA25336DAC006883C4 /* iOS Widgets */,
+				A793A66025335F8D006883C4 /* macOS */,
+				A793A66A25335F8E006883C4 /* Tests iOS */,
+				A793A67525335F8E006883C4 /* Tests macOS */,
+				A793A65825335F8D006883C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A793A64C25335F8D006883C4 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A793A6B6253361D3006883C4 /* Resources */,
+				A793A6D8253361E6006883C4 /* Core Data */,
+				A793A6EF25336201006883C4 /* Extensions */,
+				A793A7042533623A006883C4 /* Controller */,
+				A793A64F25335F8D006883C4 /* eSTEstudioApp_.swift */,
+				A793A7182533629B006883C4 /* eSTEstudioApp.swift */,
+				A793A65025335F8D006883C4 /* ContentView.swift */,
+				A793A65125335F8D006883C4 /* Persistence.swift */,
+				A793A65225335F8D006883C4 /* Assets.xcassets */,
+				A793A72A25336383006883C4 /* Navigation */,
+				A793A74A2533638D006883C4 /* Components */,
+				A793A793253363A2006883C4 /* Model */,
+				A793A7CE253363B2006883C4 /* Styles */,
+				A793A7CF253363BC006883C4 /* Widgets */,
+				A793A7D0253363D4006883C4 /* estestudio.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A793A65825335F8D006883C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A793A65725335F8D006883C4 /* eSTEstudio.app */,
+				A793A65F25335F8D006883C4 /* eSTEstudio.app */,
+				A793A66725335F8E006883C4 /* Tests iOS.xctest */,
+				A793A67225335F8E006883C4 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A793A65925335F8D006883C4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A793A65A25335F8D006883C4 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		A793A66025335F8D006883C4 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				A793A66125335F8D006883C4 /* Info.plist */,
+				A793A66225335F8D006883C4 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		A793A66A25335F8E006883C4 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A793A66B25335F8E006883C4 /* Tests_iOS.swift */,
+				A793A66D25335F8E006883C4 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		A793A67525335F8E006883C4 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				A793A67625335F8E006883C4 /* Tests_macOS.swift */,
+				A793A67825335F8E006883C4 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		A793A6B6253361D3006883C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A793A6B7253361D3006883C4 /* appointments.json */,
+				A793A6B8253361D3006883C4 /* appointmentTypes.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A793A6D8253361E6006883C4 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				A793A6D9253361E6006883C4 /* AddonIDs.swift */,
+				A793A6DA253361E6006883C4 /* NotificationsTimeIntervals+CoreDataProperties.swift */,
+				A793A6DB253361E6006883C4 /* Forms.swift */,
+				A793A6DC253361E6006883C4 /* AppointmentCoreData+CoreDataProperties.swift */,
+				A793A6DD253361E6006883C4 /* AppointmentCoreData+CoreDataClass.swift */,
+				A793A6DE253361E6006883C4 /* NotificationsTimeIntervals+CoreDataClass.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		A793A6EF25336201006883C4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A793A6F025336201006883C4 /* Date.swift */,
+				A793A6F125336201006883C4 /* CodingUserInfoKey.swift */,
+				A793A6F225336201006883C4 /* String.swift */,
+				A793A6F325336201006883C4 /* NSError.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A793A7042533623A006883C4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A793A7052533623A006883C4 /* Map View Coordinator */,
+				A793A7082533623A006883C4 /* New Appointment Controller */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A793A7052533623A006883C4 /* Map View Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A793A7062533623A006883C4 /* SafariViewController.swift */,
+				A793A7072533623A006883C4 /* WebViewController.swift */,
+			);
+			path = "Map View Coordinator";
+			sourceTree = "<group>";
+		};
+		A793A7082533623A006883C4 /* New Appointment Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A793A7092533623A006883C4 /* MapViewCoordinator.swift */,
+			);
+			path = "New Appointment Controller";
+			sourceTree = "<group>";
+		};
+		A793A72A25336383006883C4 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				A793A72B25336383006883C4 /* AppointmentsList.swift */,
+				A793A72C25336383006883C4 /* WhatsNewView.swift */,
+				A793A72D25336383006883C4 /* AppointmentDetail.swift */,
+				A793A72E25336383006883C4 /* NotificationAlertTime.swift */,
+				A793A72F25336383006883C4 /* AppointmentsScrollView.swift */,
+				A793A73025336383006883C4 /* Home.swift */,
+				A793A73125336383006883C4 /* FirstLaunchView.swift */,
+				A793A73225336383006883C4 /* AppDelegate.swift */,
+				A793A73325336383006883C4 /* SceneDelegate.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		A793A74A2533638D006883C4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A793A74B2533638D006883C4 /* New Appointment WebView */,
+				A793A74E2533638D006883C4 /* Map Views */,
+				A793A7512533638D006883C4 /* Profile */,
+				A793A7552533638D006883C4 /* Supporting Views */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A793A74B2533638D006883C4 /* New Appointment WebView */ = {
+			isa = PBXGroup;
+			children = (
+				A793A74C2533638D006883C4 /* SafariView.swift */,
+				A793A74D2533638D006883C4 /* WebView.swift */,
+			);
+			path = "New Appointment WebView";
+			sourceTree = "<group>";
+		};
+		A793A74E2533638D006883C4 /* Map Views */ = {
+			isa = PBXGroup;
+			children = (
+				A793A74F2533638D006883C4 /* MapView.swift */,
+				A793A7502533638D006883C4 /* MapViewAdvanced.swift */,
+			);
+			path = "Map Views";
+			sourceTree = "<group>";
+		};
+		A793A7512533638D006883C4 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A793A7522533638D006883C4 /* ProfileSummary.swift */,
+				A793A7532533638D006883C4 /* ProfileEditor.swift */,
+				A793A7542533638D006883C4 /* ProfileHost.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A793A7552533638D006883C4 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				A793A7562533638D006883C4 /* SheetPresenter.swift */,
+				A793A7572533638D006883C4 /* HScrollList */,
+				A793A75B2533638D006883C4 /* VScrollList */,
+				A793A75E2533638D006883C4 /* ActivityIndicator.swift */,
+				A793A75F2533638D006883C4 /* Detail */,
+				A793A7642533638D006883C4 /* AppointmentCalendarImageView.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		A793A7572533638D006883C4 /* HScrollList */ = {
+			isa = PBXGroup;
+			children = (
+				A793A7582533638D006883C4 /* TypesRow.swift */,
+				A793A7592533638D006883C4 /* TypesList.swift */,
+				A793A75A2533638D006883C4 /* EsteStudioWebView.swift */,
+			);
+			path = HScrollList;
+			sourceTree = "<group>";
+		};
+		A793A75B2533638D006883C4 /* VScrollList */ = {
+			isa = PBXGroup;
+			children = (
+				A793A75C2533638D006883C4 /* AppointmentsFilteredList.swift */,
+				A793A75D2533638D006883C4 /* AppointmentListRow.swift */,
+			);
+			path = VScrollList;
+			sourceTree = "<group>";
+		};
+		A793A75F2533638D006883C4 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				A793A7602533638D006883C4 /* AppointmentDetailRow.swift */,
+				A793A7612533638D006883C4 /* AppointmentDetailContextMenu.swift */,
+				A793A7622533638D006883C4 /* AppointmentDetailNotificationsEditor.swift */,
+				A793A7632533638D006883C4 /* AppointmentDetailEditActionSheet.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		A793A793253363A2006883C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A793A794253363A2006883C4 /* AppState.swift */,
+				A793A795253363A2006883C4 /* NetStatus.swift */,
+				A793A796253363A2006883C4 /* Data.swift */,
+				A793A797253363A2006883C4 /* NotificationsAppointmentsManager.swift */,
+				A793A798253363A2006883C4 /* LocalNotificationManager.swift */,
+				A793A799253363A2006883C4 /* AppStoreReviewManager.swift */,
+				A793A79A253363A2006883C4 /* AppointmentCoreDataManager.swift */,
+				A793A79B253363A2006883C4 /* Appointment.swift */,
+				A793A79C253363A2006883C4 /* Profile.swift */,
+				A793A79D253363A2006883C4 /* QueryParams.swift */,
+				A793A79E253363A2006883C4 /* UserData.swift */,
+				A793A79F253363A2006883C4 /* codeExample.swift */,
+				A793A7A0253363A2006883C4 /* AppointmentsViewModel.swift */,
+				A793A7A1253363A2006883C4 /* Notifications.swift */,
+				A793A7A2253363A2006883C4 /* DeleteAppointment.swift */,
+				A793A7A3253363A2006883C4 /* LocalEventManager.swift */,
+				A793A7A4253363A2006883C4 /* TimeIntervalsCoreData.swift */,
+				A793A7A5253363A2006883C4 /* TimeInterval.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A793A7CE253363B2006883C4 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		A793A7CF253363BC006883C4 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		A793A7F925336D9A006883C4 /* iOS Clip */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "iOS Clip";
+			sourceTree = "<group>";
+		};
+		A793A7FA25336DAC006883C4 /* iOS Widgets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "iOS Widgets";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A793A65625335F8D006883C4 /* eSTEstudio (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A793A68525335F8E006883C4 /* Build configuration list for PBXNativeTarget "eSTEstudio (iOS)" */;
+			buildPhases = (
+				A793A65325335F8D006883C4 /* Sources */,
+				A793A65425335F8D006883C4 /* Frameworks */,
+				A793A65525335F8D006883C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "eSTEstudio (iOS)";
+			productName = "eSTEstudio (iOS)";
+			productReference = A793A65725335F8D006883C4 /* eSTEstudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A793A65E25335F8D006883C4 /* eSTEstudio (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A793A68825335F8E006883C4 /* Build configuration list for PBXNativeTarget "eSTEstudio (macOS)" */;
+			buildPhases = (
+				A793A65B25335F8D006883C4 /* Sources */,
+				A793A65C25335F8D006883C4 /* Frameworks */,
+				A793A65D25335F8D006883C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "eSTEstudio (macOS)";
+			productName = "eSTEstudio (macOS)";
+			productReference = A793A65F25335F8D006883C4 /* eSTEstudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A793A66625335F8E006883C4 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A793A68B25335F8E006883C4 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				A793A66325335F8E006883C4 /* Sources */,
+				A793A66425335F8E006883C4 /* Frameworks */,
+				A793A66525335F8E006883C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A793A66925335F8E006883C4 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = A793A66725335F8E006883C4 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A793A67125335F8E006883C4 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A793A68E25335F8E006883C4 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				A793A66E25335F8E006883C4 /* Sources */,
+				A793A66F25335F8E006883C4 /* Frameworks */,
+				A793A67025335F8E006883C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A793A67425335F8E006883C4 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = A793A67225335F8E006883C4 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A793A64825335F8D006883C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					A793A65625335F8D006883C4 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					A793A65E25335F8D006883C4 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					A793A66625335F8E006883C4 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = A793A65625335F8D006883C4;
+					};
+					A793A67125335F8E006883C4 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = A793A65E25335F8D006883C4;
+					};
+				};
+			};
+			buildConfigurationList = A793A64B25335F8D006883C4 /* Build configuration list for PBXProject "eSTEstudio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A793A64725335F8D006883C4;
+			productRefGroup = A793A65825335F8D006883C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A793A65625335F8D006883C4 /* eSTEstudio (iOS) */,
+				A793A65E25335F8D006883C4 /* eSTEstudio (macOS) */,
+				A793A66625335F8E006883C4 /* Tests iOS */,
+				A793A67125335F8E006883C4 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A793A65525335F8D006883C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A793A6A5253361AA006883C4 /* README.md in Resources */,
+				A793A69E253361A0006883C4 /* .swiftlint.yml in Resources */,
+				A793A68125335F8E006883C4 /* Assets.xcassets in Resources */,
+				A793A6BB253361D3006883C4 /* appointmentTypes.json in Resources */,
+				A793A6B9253361D3006883C4 /* appointments.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A793A65D25335F8D006883C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A793A6A6253361AA006883C4 /* README.md in Resources */,
+				A793A69F253361A0006883C4 /* .swiftlint.yml in Resources */,
+				A793A68225335F8E006883C4 /* Assets.xcassets in Resources */,
+				A793A6BC253361D3006883C4 /* appointmentTypes.json in Resources */,
+				A793A6BA253361D3006883C4 /* appointments.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A793A66525335F8E006883C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A793A67025335F8E006883C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A793A65325335F8D006883C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A793A7C0253363A2006883C4 /* Notifications.swift in Sources */,
+				A793A7C8253363A2006883C4 /* TimeInterval.swift in Sources */,
+				A793A7D2253363D4006883C4 /* estestudio.xcdatamodeld in Sources */,
+				A793A6F825336201006883C4 /* String.swift in Sources */,
+				A793A73625336383006883C4 /* WhatsNewView.swift in Sources */,
+				A793A6F625336201006883C4 /* CodingUserInfoKey.swift in Sources */,
+				A793A7BA253363A2006883C4 /* UserData.swift in Sources */,
+				A793A70E2533623A006883C4 /* MapViewCoordinator.swift in Sources */,
+				A793A73A25336383006883C4 /* NotificationAlertTime.swift in Sources */,
+				A793A6E3253361E6006883C4 /* Forms.swift in Sources */,
+				A793A74025336383006883C4 /* FirstLaunchView.swift in Sources */,
+				A793A7AA253363A2006883C4 /* Data.swift in Sources */,
+				A793A7C4253363A2006883C4 /* LocalEventManager.swift in Sources */,
+				A793A7692533638D006883C4 /* MapView.swift in Sources */,
+				A793A77B2533638D006883C4 /* AppointmentsFilteredList.swift in Sources */,
+				A793A7832533638D006883C4 /* AppointmentDetailContextMenu.swift in Sources */,
+				A793A76B2533638D006883C4 /* MapViewAdvanced.swift in Sources */,
+				A793A67B25335F8E006883C4 /* eSTEstudioApp_.swift in Sources */,
+				A793A74225336383006883C4 /* AppDelegate.swift in Sources */,
+				A793A7B8253363A2006883C4 /* QueryParams.swift in Sources */,
+				A793A67F25335F8E006883C4 /* Persistence.swift in Sources */,
+				A793A6F425336201006883C4 /* Date.swift in Sources */,
+				A793A77D2533638D006883C4 /* AppointmentListRow.swift in Sources */,
+				A793A7C2253363A2006883C4 /* DeleteAppointment.swift in Sources */,
+				A793A74425336383006883C4 /* SceneDelegate.swift in Sources */,
+				A793A77F2533638D006883C4 /* ActivityIndicator.swift in Sources */,
+				A793A76D2533638D006883C4 /* ProfileSummary.swift in Sources */,
+				A793A73425336383006883C4 /* AppointmentsList.swift in Sources */,
+				A793A7892533638D006883C4 /* AppointmentCalendarImageView.swift in Sources */,
+				A793A7852533638D006883C4 /* AppointmentDetailNotificationsEditor.swift in Sources */,
+				A793A7812533638D006883C4 /* AppointmentDetailRow.swift in Sources */,
+				A793A73825336383006883C4 /* AppointmentDetail.swift in Sources */,
+				A793A7712533638D006883C4 /* ProfileHost.swift in Sources */,
+				A793A7AC253363A2006883C4 /* NotificationsAppointmentsManager.swift in Sources */,
+				A793A6E5253361E6006883C4 /* AppointmentCoreData+CoreDataProperties.swift in Sources */,
+				A793A70A2533623A006883C4 /* SafariViewController.swift in Sources */,
+				A793A73C25336383006883C4 /* AppointmentsScrollView.swift in Sources */,
+				A793A7192533629B006883C4 /* eSTEstudioApp.swift in Sources */,
+				A793A7872533638D006883C4 /* AppointmentDetailEditActionSheet.swift in Sources */,
+				A793A7B2253363A2006883C4 /* AppointmentCoreDataManager.swift in Sources */,
+				A793A7672533638D006883C4 /* WebView.swift in Sources */,
+				A793A7BE253363A2006883C4 /* AppointmentsViewModel.swift in Sources */,
+				A793A6DF253361E6006883C4 /* AddonIDs.swift in Sources */,
+				A793A7652533638D006883C4 /* SafariView.swift in Sources */,
+				A793A7AE253363A2006883C4 /* LocalNotificationManager.swift in Sources */,
+				A793A6E1253361E6006883C4 /* NotificationsTimeIntervals+CoreDataProperties.swift in Sources */,
+				A793A7B4253363A2006883C4 /* Appointment.swift in Sources */,
+				A793A67D25335F8E006883C4 /* ContentView.swift in Sources */,
+				A793A7B6253363A2006883C4 /* Profile.swift in Sources */,
+				A793A7792533638D006883C4 /* EsteStudioWebView.swift in Sources */,
+				A793A7BC253363A2006883C4 /* codeExample.swift in Sources */,
+				A793A7A8253363A2006883C4 /* NetStatus.swift in Sources */,
+				A793A6E9253361E6006883C4 /* NotificationsTimeIntervals+CoreDataClass.swift in Sources */,
+				A793A6E7253361E6006883C4 /* AppointmentCoreData+CoreDataClass.swift in Sources */,
+				A793A76F2533638D006883C4 /* ProfileEditor.swift in Sources */,
+				A793A6FA25336201006883C4 /* NSError.swift in Sources */,
+				A793A7772533638D006883C4 /* TypesList.swift in Sources */,
+				A793A7A6253363A2006883C4 /* AppState.swift in Sources */,
+				A793A7C6253363A2006883C4 /* TimeIntervalsCoreData.swift in Sources */,
+				A793A7732533638D006883C4 /* SheetPresenter.swift in Sources */,
+				A793A73E25336383006883C4 /* Home.swift in Sources */,
+				A793A7B0253363A2006883C4 /* AppStoreReviewManager.swift in Sources */,
+				A793A7752533638D006883C4 /* TypesRow.swift in Sources */,
+				A793A70C2533623A006883C4 /* WebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A793A65B25335F8D006883C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A793A7C1253363A2006883C4 /* Notifications.swift in Sources */,
+				A793A7C9253363A2006883C4 /* TimeInterval.swift in Sources */,
+				A793A7D3253363D4006883C4 /* estestudio.xcdatamodeld in Sources */,
+				A793A6F925336201006883C4 /* String.swift in Sources */,
+				A793A73725336383006883C4 /* WhatsNewView.swift in Sources */,
+				A793A6F725336201006883C4 /* CodingUserInfoKey.swift in Sources */,
+				A793A7BB253363A2006883C4 /* UserData.swift in Sources */,
+				A793A70F2533623A006883C4 /* MapViewCoordinator.swift in Sources */,
+				A793A73B25336383006883C4 /* NotificationAlertTime.swift in Sources */,
+				A793A6E4253361E6006883C4 /* Forms.swift in Sources */,
+				A793A74125336383006883C4 /* FirstLaunchView.swift in Sources */,
+				A793A7AB253363A2006883C4 /* Data.swift in Sources */,
+				A793A7C5253363A2006883C4 /* LocalEventManager.swift in Sources */,
+				A793A76A2533638D006883C4 /* MapView.swift in Sources */,
+				A793A77C2533638D006883C4 /* AppointmentsFilteredList.swift in Sources */,
+				A793A7842533638D006883C4 /* AppointmentDetailContextMenu.swift in Sources */,
+				A793A76C2533638D006883C4 /* MapViewAdvanced.swift in Sources */,
+				A793A67C25335F8E006883C4 /* eSTEstudioApp_.swift in Sources */,
+				A793A74325336383006883C4 /* AppDelegate.swift in Sources */,
+				A793A7B9253363A2006883C4 /* QueryParams.swift in Sources */,
+				A793A68025335F8E006883C4 /* Persistence.swift in Sources */,
+				A793A6F525336201006883C4 /* Date.swift in Sources */,
+				A793A77E2533638D006883C4 /* AppointmentListRow.swift in Sources */,
+				A793A7C3253363A2006883C4 /* DeleteAppointment.swift in Sources */,
+				A793A74525336383006883C4 /* SceneDelegate.swift in Sources */,
+				A793A7802533638D006883C4 /* ActivityIndicator.swift in Sources */,
+				A793A76E2533638D006883C4 /* ProfileSummary.swift in Sources */,
+				A793A73525336383006883C4 /* AppointmentsList.swift in Sources */,
+				A793A78A2533638D006883C4 /* AppointmentCalendarImageView.swift in Sources */,
+				A793A7862533638D006883C4 /* AppointmentDetailNotificationsEditor.swift in Sources */,
+				A793A7822533638D006883C4 /* AppointmentDetailRow.swift in Sources */,
+				A793A73925336383006883C4 /* AppointmentDetail.swift in Sources */,
+				A793A7722533638D006883C4 /* ProfileHost.swift in Sources */,
+				A793A7AD253363A2006883C4 /* NotificationsAppointmentsManager.swift in Sources */,
+				A793A6E6253361E6006883C4 /* AppointmentCoreData+CoreDataProperties.swift in Sources */,
+				A793A70B2533623A006883C4 /* SafariViewController.swift in Sources */,
+				A793A73D25336383006883C4 /* AppointmentsScrollView.swift in Sources */,
+				A793A71A2533629B006883C4 /* eSTEstudioApp.swift in Sources */,
+				A793A7882533638D006883C4 /* AppointmentDetailEditActionSheet.swift in Sources */,
+				A793A7B3253363A2006883C4 /* AppointmentCoreDataManager.swift in Sources */,
+				A793A7682533638D006883C4 /* WebView.swift in Sources */,
+				A793A7BF253363A2006883C4 /* AppointmentsViewModel.swift in Sources */,
+				A793A6E0253361E6006883C4 /* AddonIDs.swift in Sources */,
+				A793A7662533638D006883C4 /* SafariView.swift in Sources */,
+				A793A7AF253363A2006883C4 /* LocalNotificationManager.swift in Sources */,
+				A793A6E2253361E6006883C4 /* NotificationsTimeIntervals+CoreDataProperties.swift in Sources */,
+				A793A7B5253363A2006883C4 /* Appointment.swift in Sources */,
+				A793A67E25335F8E006883C4 /* ContentView.swift in Sources */,
+				A793A7B7253363A2006883C4 /* Profile.swift in Sources */,
+				A793A77A2533638D006883C4 /* EsteStudioWebView.swift in Sources */,
+				A793A7BD253363A2006883C4 /* codeExample.swift in Sources */,
+				A793A7A9253363A2006883C4 /* NetStatus.swift in Sources */,
+				A793A6EA253361E6006883C4 /* NotificationsTimeIntervals+CoreDataClass.swift in Sources */,
+				A793A6E8253361E6006883C4 /* AppointmentCoreData+CoreDataClass.swift in Sources */,
+				A793A7702533638D006883C4 /* ProfileEditor.swift in Sources */,
+				A793A6FB25336201006883C4 /* NSError.swift in Sources */,
+				A793A7782533638D006883C4 /* TypesList.swift in Sources */,
+				A793A7A7253363A2006883C4 /* AppState.swift in Sources */,
+				A793A7C7253363A2006883C4 /* TimeIntervalsCoreData.swift in Sources */,
+				A793A7742533638D006883C4 /* SheetPresenter.swift in Sources */,
+				A793A73F25336383006883C4 /* Home.swift in Sources */,
+				A793A7B1253363A2006883C4 /* AppStoreReviewManager.swift in Sources */,
+				A793A7762533638D006883C4 /* TypesRow.swift in Sources */,
+				A793A70D2533623A006883C4 /* WebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A793A66325335F8E006883C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A793A66C25335F8E006883C4 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A793A66E25335F8E006883C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A793A67725335F8E006883C4 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A793A66925335F8E006883C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A793A65625335F8D006883C4 /* eSTEstudio (iOS) */;
+			targetProxy = A793A66825335F8E006883C4 /* PBXContainerItemProxy */;
+		};
+		A793A67425335F8E006883C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A793A65E25335F8D006883C4 /* eSTEstudio (macOS) */;
+			targetProxy = A793A67325335F8E006883C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A793A68325335F8E006883C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A793A68425335F8E006883C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A793A68625335F8E006883C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = 45V8B55SJ7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bgrec.estestudio;
+				PRODUCT_NAME = eSTEstudio;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A793A68725335F8E006883C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = 45V8B55SJ7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bgrec.estestudio;
+				PRODUCT_NAME = eSTEstudio;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A793A68925335F8E006883C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = 45V8B55SJ7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bgrec.estestudio;
+				PRODUCT_NAME = eSTEstudio;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A793A68A25335F8E006883C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = 45V8B55SJ7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bgrec.estestudio;
+				PRODUCT_NAME = eSTEstudio;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A793A68C25335F8E006883C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45V8B55SJ7;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bogdangrec.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "eSTEstudio (iOS)";
+			};
+			name = Debug;
+		};
+		A793A68D25335F8E006883C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45V8B55SJ7;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bogdangrec.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "eSTEstudio (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A793A68F25335F8E006883C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 45V8B55SJ7;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bogdangrec.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "eSTEstudio (macOS)";
+			};
+			name = Debug;
+		};
+		A793A69025335F8E006883C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 45V8B55SJ7;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bogdangrec.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "eSTEstudio (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A793A64B25335F8D006883C4 /* Build configuration list for PBXProject "eSTEstudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A793A68325335F8E006883C4 /* Debug */,
+				A793A68425335F8E006883C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A793A68525335F8E006883C4 /* Build configuration list for PBXNativeTarget "eSTEstudio (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A793A68625335F8E006883C4 /* Debug */,
+				A793A68725335F8E006883C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A793A68825335F8E006883C4 /* Build configuration list for PBXNativeTarget "eSTEstudio (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A793A68925335F8E006883C4 /* Debug */,
+				A793A68A25335F8E006883C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A793A68B25335F8E006883C4 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A793A68C25335F8E006883C4 /* Debug */,
+				A793A68D25335F8E006883C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A793A68E25335F8E006883C4 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A793A68F25335F8E006883C4 /* Debug */,
+				A793A69025335F8E006883C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A793A7D0253363D4006883C4 /* estestudio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A793A7D1253363D4006883C4 /* estestudio.xcdatamodel */,
+			);
+			currentVersion = A793A7D1253363D4006883C4 /* estestudio.xcdatamodel */;
+			name = estestudio.xcdatamodeld;
+			path = ../../../dev2.0/estestudio/eSTEstudio/Shared/estestudio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A793A64825335F8D006883C4 /* Project object */;
+}
