@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7646188257D87A8004E06DB /* estestudio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7646185257D87A8004E06DB /* estestudio.xcdatamodeld */; };
+		A7646189257D87A8004E06DB /* estestudio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7646185257D87A8004E06DB /* estestudio.xcdatamodeld */; };
 		A793A66C25335F8E006883C4 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A66B25335F8E006883C4 /* Tests_iOS.swift */; };
 		A793A67725335F8E006883C4 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A67625335F8E006883C4 /* Tests_macOS.swift */; };
 		A793A67B25335F8E006883C4 /* eSTEstudioApp_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A64F25335F8D006883C4 /* eSTEstudioApp_.swift */; };
@@ -145,8 +147,6 @@
 		A793A7C7253363A2006883C4 /* TimeIntervalsCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7A4253363A2006883C4 /* TimeIntervalsCoreData.swift */; };
 		A793A7C8253363A2006883C4 /* TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7A5253363A2006883C4 /* TimeInterval.swift */; };
 		A793A7C9253363A2006883C4 /* TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = A793A7A5253363A2006883C4 /* TimeInterval.swift */; };
-		A793A7D2253363D4006883C4 /* estestudio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A793A7D0253363D4006883C4 /* estestudio.xcdatamodeld */; };
-		A793A7D3253363D4006883C4 /* estestudio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A793A7D0253363D4006883C4 /* estestudio.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -167,6 +167,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A764616C257D5785004E06DB /* estestudio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = estestudio.xcdatamodel; sourceTree = "<group>"; };
+		A764616D257D5785004E06DB /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		A7646186257D87A8004E06DB /* estestudio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = estestudio.xcdatamodel; sourceTree = "<group>"; };
+		A7646187257D87A8004E06DB /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		A793A64F25335F8D006883C4 /* eSTEstudioApp_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eSTEstudioApp_.swift; sourceTree = "<group>"; };
 		A793A65025335F8D006883C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A793A65125335F8D006883C4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -246,7 +250,6 @@
 		A793A7A3253363A2006883C4 /* LocalEventManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalEventManager.swift; sourceTree = "<group>"; };
 		A793A7A4253363A2006883C4 /* TimeIntervalsCoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeIntervalsCoreData.swift; sourceTree = "<group>"; };
 		A793A7A5253363A2006883C4 /* TimeInterval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeInterval.swift; sourceTree = "<group>"; };
-		A793A7D1253363D4006883C4 /* estestudio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = estestudio.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -300,6 +303,7 @@
 		A793A64C25335F8D006883C4 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				A7646185257D87A8004E06DB /* estestudio.xcdatamodeld */,
 				A793A6B6253361D3006883C4 /* Resources */,
 				A793A6D8253361E6006883C4 /* Core Data */,
 				A793A6EF25336201006883C4 /* Extensions */,
@@ -314,7 +318,6 @@
 				A793A793253363A2006883C4 /* Model */,
 				A793A7CE253363B2006883C4 /* Styles */,
 				A793A7CF253363BC006883C4 /* Widgets */,
-				A793A7D0253363D4006883C4 /* estestudio.xcdatamodeld */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -359,6 +362,7 @@
 		A793A67525335F8E006883C4 /* Tests macOS */ = {
 			isa = PBXGroup;
 			children = (
+				A7F99F94257D55680051365A /* estestudio.xcdatamodeld */,
 				A793A67625335F8E006883C4 /* Tests_macOS.swift */,
 				A793A67825335F8E006883C4 /* Info.plist */,
 			);
@@ -427,12 +431,12 @@
 		A793A72A25336383006883C4 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				A793A73025336383006883C4 /* Home.swift */,
 				A793A72B25336383006883C4 /* AppointmentsList.swift */,
 				A793A72C25336383006883C4 /* WhatsNewView.swift */,
 				A793A72D25336383006883C4 /* AppointmentDetail.swift */,
 				A793A72E25336383006883C4 /* NotificationAlertTime.swift */,
 				A793A72F25336383006883C4 /* AppointmentsScrollView.swift */,
-				A793A73025336383006883C4 /* Home.swift */,
 				A793A73125336383006883C4 /* FirstLaunchView.swift */,
 				A793A73225336383006883C4 /* AppDelegate.swift */,
 				A793A73325336383006883C4 /* SceneDelegate.swift */,
@@ -557,6 +561,7 @@
 		A793A7CF253363BC006883C4 /* Widgets */ = {
 			isa = PBXGroup;
 			children = (
+				A764616B257D5785004E06DB /* estestudio.xcdatamodeld */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -674,7 +679,7 @@
 				};
 			};
 			buildConfigurationList = A793A64B25335F8D006883C4 /* Build configuration list for PBXProject "eSTEstudio" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -742,7 +747,6 @@
 			files = (
 				A793A7C0253363A2006883C4 /* Notifications.swift in Sources */,
 				A793A7C8253363A2006883C4 /* TimeInterval.swift in Sources */,
-				A793A7D2253363D4006883C4 /* estestudio.xcdatamodeld in Sources */,
 				A793A6F825336201006883C4 /* String.swift in Sources */,
 				A793A73625336383006883C4 /* WhatsNewView.swift in Sources */,
 				A793A6F625336201006883C4 /* CodingUserInfoKey.swift in Sources */,
@@ -797,6 +801,7 @@
 				A793A76F2533638D006883C4 /* ProfileEditor.swift in Sources */,
 				A793A6FA25336201006883C4 /* NSError.swift in Sources */,
 				A793A7772533638D006883C4 /* TypesList.swift in Sources */,
+				A7646188257D87A8004E06DB /* estestudio.xcdatamodeld in Sources */,
 				A793A7A6253363A2006883C4 /* AppState.swift in Sources */,
 				A793A7C6253363A2006883C4 /* TimeIntervalsCoreData.swift in Sources */,
 				A793A7732533638D006883C4 /* SheetPresenter.swift in Sources */,
@@ -813,7 +818,6 @@
 			files = (
 				A793A7C1253363A2006883C4 /* Notifications.swift in Sources */,
 				A793A7C9253363A2006883C4 /* TimeInterval.swift in Sources */,
-				A793A7D3253363D4006883C4 /* estestudio.xcdatamodeld in Sources */,
 				A793A6F925336201006883C4 /* String.swift in Sources */,
 				A793A73725336383006883C4 /* WhatsNewView.swift in Sources */,
 				A793A6F725336201006883C4 /* CodingUserInfoKey.swift in Sources */,
@@ -868,6 +872,7 @@
 				A793A7702533638D006883C4 /* ProfileEditor.swift in Sources */,
 				A793A6FB25336201006883C4 /* NSError.swift in Sources */,
 				A793A7782533638D006883C4 /* TypesList.swift in Sources */,
+				A7646189257D87A8004E06DB /* estestudio.xcdatamodeld in Sources */,
 				A793A7A7253363A2006883C4 /* AppState.swift in Sources */,
 				A793A7C7253363A2006883C4 /* TimeIntervalsCoreData.swift in Sources */,
 				A793A7742533638D006883C4 /* SheetPresenter.swift in Sources */,
@@ -1265,14 +1270,34 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A793A7D0253363D4006883C4 /* estestudio.xcdatamodeld */ = {
+		A764616B257D5785004E06DB /* estestudio.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A793A7D1253363D4006883C4 /* estestudio.xcdatamodel */,
+				A764616C257D5785004E06DB /* estestudio.xcdatamodel */,
+				A764616D257D5785004E06DB /* Shared.xcdatamodel */,
 			);
-			currentVersion = A793A7D1253363D4006883C4 /* estestudio.xcdatamodel */;
+			currentVersion = A764616C257D5785004E06DB /* estestudio.xcdatamodel */;
 			name = estestudio.xcdatamodeld;
-			path = ../../../dev2.0/estestudio/eSTEstudio/Shared/estestudio.xcdatamodeld;
+			path = /Volumes/bgrec/dev2.0/estestudio/eSTEstudio/Shared/estestudio.xcdatamodeld;
+			sourceTree = "<absolute>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		A7646185257D87A8004E06DB /* estestudio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A7646186257D87A8004E06DB /* estestudio.xcdatamodel */,
+				A7646187257D87A8004E06DB /* Shared.xcdatamodel */,
+			);
+			currentVersion = A7646186257D87A8004E06DB /* estestudio.xcdatamodel */;
+			path = estestudio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		A7F99F94257D55680051365A /* estestudio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+			);
+			path = estestudio.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

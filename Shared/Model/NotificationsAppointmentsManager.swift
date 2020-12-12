@@ -13,7 +13,7 @@ struct NotificationsAppointmentsManager {
     func scheduleNotifications(appointments: [Appointment]) {
 
         // swiftlint:disable force_cast
-        let managedObjectContext = PersistentStore.shared.persistentContainer.viewContext //(UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        let managedObjectContext = PersistenceController.shared.container.viewContext //(UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
 
 
         // swiftlint:enable force_cast

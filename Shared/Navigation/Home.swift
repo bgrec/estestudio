@@ -118,7 +118,7 @@ struct Home_Previews: PreviewProvider {
     static var previews: some View {
         // swiftlint:disable force_cast
         //let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-        let context = PersistentStore.shared.persistentContainer.viewContext
+        let context = PersistenceController.shared.container.viewContext
         // swiftlint:enable force_cast
 
         return Home().environment(\.managedObjectContext, context)

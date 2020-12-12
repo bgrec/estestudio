@@ -132,5 +132,4 @@ public class AppointmentCoreData: NSManagedObject, Codable {
         //self.forms = try container.decodeIfPresent([String].self, forKey: .forms)
         //self.labels = try container.decodeIfPresent([String].self, forKey: .labels)
     }
-
 }

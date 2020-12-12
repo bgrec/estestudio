@@ -21,7 +21,7 @@ extension AppointmentCoreDataControllerProtocol {
 class AppointmentCoreDataManager {
 
     static let shared = AppointmentCoreDataManager()
-    private let persistentContainer: NSPersistentContainer = PersistentStore.shared.persistentContainer
+    private let persistentContainer: NSPersistentContainer = PersistenceController.shared.container
     private static let entityName = "AppointmentCoreData"
     private var fetchItemsCompletionBlock: FetchItemsCompletionBlock?
 
